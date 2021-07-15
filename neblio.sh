@@ -28,7 +28,7 @@ echo -e "${CYAN}                                 '/\'
                                '\    /'
 		                 '\/'${NC}" 
 echo -e "                       
-                         ${CYAN}Neblio Wallet 3.2.1${NC}"
+                         ${CYAN}Neblio Wallet 3.3.0${NC}"
 sleep 2s
 echo -e "${GREEN}I will download required dependencies to run nebliod...${NC}"
 sleep 1s
@@ -44,9 +44,9 @@ sleep 1s
 
 #Neblio daemon server node
 echo -e "${GREEN}Downloading the nebliod wallet...${NC}"
-wget -N https://github.com/NeblioTeam/neblio/releases/download/v3.2.1/2021-04-27---v3.2.1-76605e2---nebliod---ubuntu16.04.tar.gz
-tar -xvf 2021-04-27---v3.2.1-76605e2---nebliod---ubuntu16.04.tar.gz
-rm -rf 2021-04-27---v3.2.1-76605e2---nebliod---ubuntu16.04.tar.gz
+wget -N https://github.com/NeblioTeam/neblio/releases/download/v3.3.0/2021-07-12---v3.3.0-36cb445---neblio-Qt---ubuntu16.04.tar.gz
+tar -xvf 2021-07-12---v3.3.0-36cb445---neblio-Qt---ubuntu16.04.tar.gz
+rm -rf 2021-07-12---v3.3.0-36cb445---neblio-Qt---ubuntu16.04.tar.gz
 sudo chmod -R 755 nebliod
 echo -e "${GREEN}Neblio node server wallet has been downloaded!${NC}"
 sleep 1s
