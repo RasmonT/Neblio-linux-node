@@ -44,9 +44,9 @@ sleep 1s
 
 #Neblio daemon server node
 echo -e "${GREEN}Downloading the nebliod wallet...${NC}"
-wget -N https://github.com/NeblioTeam/neblio/releases/download/v3.3.0/2021-07-12---v3.3.0-36cb445---neblio-Qt---ubuntu16.04.tar.gz
-tar -xvf 2021-07-12---v3.3.0-36cb445---neblio-Qt---ubuntu16.04.tar.gz
-rm -rf 2021-07-12---v3.3.0-36cb445---neblio-Qt---ubuntu16.04.tar.gz
+wget -N https://github.com/NeblioTeam/neblio/releases/download/v3.4.0/2021-11-22---v3.4.0-2e0dfb8---nebliod---ubuntu16.04.tar.gz
+tar -xvf 2021-11-22---v3.4.0-2e0dfb8---nebliod---ubuntu16.04.tar.gz
+rm -rf 2021-11-22---v3.4.0-2e0dfb8---nebliod---ubuntu16.04.tar.gz
 sudo chmod -R 755 nebliod
 echo -e "${GREEN}Neblio node server wallet has been downloaded!${NC}"
 sleep 1s
