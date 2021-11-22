@@ -28,7 +28,7 @@ echo -e "${CYAN}                                 '/\'
                                '\    /'
 		                 '\/'${NC}" 
 echo -e "                       
-                         ${CYAN}Neblio Wallet 3.3.0${NC}"
+                         ${CYAN}Neblio Wallet 3.4.0${NC}"
 sleep 2s
 echo -e "${GREEN}I will download required dependencies to run nebliod...${NC}"
 sleep 1s
